@@ -36,7 +36,7 @@ void Square::setPieceAndColor(Piece p, Color c)
 
 }
 
-void Board::printPieceOnBoard(Piece p,Color c)
+void Board::printPieceOnBoard(Piece piece,Color color)
 {
     switch (piece)
 			{
