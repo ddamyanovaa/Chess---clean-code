@@ -37,7 +37,10 @@ class Board
 	bool isRookMoved(Square* thisRook, Square* thatSpace);
 	bool isPawnMoved(Square* thisPawn, Square* thatSpace);
 	bool isMoveMade(int x1, int y1, int x2, int y2);
+	void printPieceOnBoard(Piece piece,Color color);
 	void printBoard();
+	void drawBoard();
+	bool isPieceMoved(Square* src,Square* dest);
 public:
 	Square* getSquare(int x, int y) {
 		return &square[x][y];
